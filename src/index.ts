@@ -2,8 +2,8 @@ import { Application, Loader, Ticker } from 'pixi.js'
 import { assets } from './assets';
 import { GameScene } from './scenes/GameScene';
 
-export const WIDTH = 1920;
-export const HEIGHT = 1080;
+export const WIDTH = 1280;
+export const HEIGHT = 960;
 
 const app = new Application({
 	view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
